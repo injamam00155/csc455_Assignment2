@@ -41,7 +41,7 @@
             </tbody>
         </table>
         <div>
-                < <a href="index.php" class="button-1 " style="text-decoration: none; color: black;">Back To Customer Message Page </a> 
+                 <a href="index.php" class="button-1 " style="text-decoration: none; color: black;">Back To Customer Message Page </a> 
         </div>
     </div>
 
@@ -51,6 +51,9 @@
     <script type='text/javascript'>$(function () {
             $('#keywords').tablesorter();
             });
+            document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
     </script>
 </body>
 </html>
